@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:id="@+id/R1"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/message_back" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="When In Emergency,Click Here."
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="93dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:src="@drawable/ic_arrow_downward_black_24dp" />
+
+    <!--  <ImageView
+          android:id="@+id/sos_image"
+          android:layout_width="237dp"
+          android:layout_height="258dp"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="137dp"
+          android:cropToPadding="true"
+          android:elevation="15dp"
+          android:src="@mipmap/sos_round" /> -->
+    <Button
+        android:id="@+id/sos_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/circle_button"
+        android:elevation="20dp"
+        android:text="SOS!! 'HELP' "
+        android:textColor="#F3F2F7" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="188dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_for_message"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginBottom="70dp"
+        android:textColor="#ffffff"
+        android:text="Out Of Danger"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+
+</RelativeLayout>
